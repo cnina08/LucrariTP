@@ -54,7 +54,7 @@ def show_response(url):
 
 
 def check_site(url):
-    """Returnează un dicționar cu: status, content_type, length, server."""
+    """Returnează un dicționar de forma: status, content_type, length, server."""
     try:
         r = requests.get(url, timeout=5)
         content_type = r.headers.get("Content-Type", "").split(";")[0].strip()
