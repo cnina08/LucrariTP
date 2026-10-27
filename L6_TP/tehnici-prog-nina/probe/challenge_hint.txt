@@ -1,0 +1,1 @@
+Un strat de base64 peste un XOR cu cheie de un octet. Verificare: md5 al textului clar = 8c4eb02d9dcef7d0ff91d8e4c7fea91b
